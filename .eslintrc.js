@@ -29,7 +29,7 @@ module.exports = {
       "error",
       {
         "newlines-between": "always",
-        pathGroups: [{ pattern: "{react*, react*/**}", group: "external", position: "before" }],
+        pathGroups: [{ pattern: "{react*, react*/**}", group: "sibling", position: "before" }],
         pathGroupsExcludedImportTypes: ["react"],
 
         groups: ["sibling", "parent"],
