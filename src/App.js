@@ -1,5 +1,11 @@
-function App() {
-  return <div>데일리</div>;
-}
+import Main from "./pages/Main";
+
+const App = () => {
+  return (
+    <div>
+      <Main />
+    </div>
+  );
+};
 
 export default App;
