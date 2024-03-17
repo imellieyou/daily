@@ -8,7 +8,13 @@ const Monthly = () => {
   return (
     <div>
       캘린더
-      <Calendar onChange={setValue} value={value} formatDay={(locale, date) => date.toLocaleString("en", { day: "numeric" })} next2Label={null} prev2Label={null} />
+      <Calendar
+        onChange={setValue}
+        value={value}
+        formatDay={(locale, date) => date.toLocaleString("en", { day: "numeric" })}
+        next2Label={null}
+        prev2Label={null}
+      />
     </div>
   );
 };
